@@ -1,0 +1,7 @@
+{
+  "name": "fetchPokemonIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
