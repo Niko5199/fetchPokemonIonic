@@ -35,10 +35,10 @@ const ExploreContainer: React.FC = () => {
         {
           arrPokemons.length > 0 ? (
             arrPokemons.map((pokemon:Pokemon) => (
-              <IonCard button>
+              <IonCard button className='card'>
               <img src={pokemon.sprites.other.dream_world.front_default} alt={pokemon.name} className="imgPokeCard" />
-              <IonCardHeader>
-                <IonTitle>{pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</IonTitle>
+              <IonCardHeader className='pokeTitle'>
+                <IonTitle >{pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</IonTitle>
               </IonCardHeader>
               <IonCardContent>
                   <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor N. del T. <span className='info'>Ver mas...</span> </p>
