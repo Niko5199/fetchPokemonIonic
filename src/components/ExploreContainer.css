@@ -22,3 +22,17 @@
 .container a {
   text-decoration: none;
 }
+
+.imgPokeCard {
+  width: 200px;
+  display: block;
+  margin: 0px auto;
+}
+
+.card_footer {
+  text-align: center;
+}
+
+.info {
+  color: aqua;
+}
