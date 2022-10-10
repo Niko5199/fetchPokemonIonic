@@ -35,7 +35,7 @@ const ExploreContainer: React.FC = () => {
         {
           arrPokemons.length > 0 ? (
             arrPokemons.map((pokemon:Pokemon) => (
-              <IonCard button className='card'>
+              <IonCard button className='card' key={pokemon.id}>
               <img src={pokemon.sprites.other.dream_world.front_default} alt={pokemon.name} className="imgPokeCard" />
               <IonCardHeader className='pokeTitle'>
                 <IonTitle >{pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</IonTitle>
